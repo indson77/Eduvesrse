@@ -57,15 +57,123 @@ header{
 
 .hero-section-main-2{
     height: 85vh;
-    padding: 24px 0px;
+    padding: 0 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
-    background-color: #f0f8ff;
+    background-color: #edf1fc;
     
 
 }
 
 .highlight{
     color: #007bff; 
+}
+
+.storycard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(18, 18, 18, 0.1);
+    max-width: 900px;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+.storytext{
+    flex: 1;
+    text-align: left;
+}
+
+.story-img{
+    flex: 1;
+}
+.story-img img{
+    max-width: 300px;
+    height: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+    margin-left: 200px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.nav-buttons{
+    background-color: #5981f1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-section-main-3{
+    height: 85vh;
+    padding: 0 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #f5f6f8;
+
+}
+
+.hero-section-3{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.calculation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(18, 18, 18, 0.1);
+    max-width: 900px;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+.calculate{
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.age{
+    background-color: #fefeff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.estimated{
+    background-color: #f4d8c0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.invest{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(20, 20, 28);
+    border-radius: 15px;
+    color: white
 }
