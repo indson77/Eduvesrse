@@ -55,3 +55,17 @@ header{
     flex-direction: column;
 }
 
+.hero-section-main-2{
+    height: 85vh;
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f8ff;
+    
+
+}
+
+.highlight{
+    color: #007bff; 
+}
