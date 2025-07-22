@@ -121,7 +121,7 @@ header{
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: #f5f6f8;
+    background-color: #fafafa;
 
 }
 
@@ -176,4 +176,17 @@ header{
     background-color: rgb(20, 20, 28);
     border-radius: 15px;
     color: white
+}
+
+.donut-chart{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+}
+
+.chart{
+    width: 200px;
+    height: 250px;
 }
